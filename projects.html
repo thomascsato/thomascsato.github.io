@@ -29,7 +29,7 @@
   <!-- Hero Section -->
   <section class="pageheader">
     <div class="headertext">
-      <p>Hello!</p>
+      <p>Projects</p>
     </div>
   </section>
 
@@ -37,31 +37,41 @@
   <section class="twocolumn">
     <div class="leftbar">
       <div class="bodytext">
+        <h2 class="section-header">
+          <a href="https://github.com/thomascsato/Shakespeare-Sentiment-Analysis" target="_blank" style="text-decoration: none;">Shakespeare Sentiment Analysis</a>
+        </h2>
         <p>
-          Hi, I'm Thomas Sato, a recent graduate of Willamette University's Data Science program (B.S.) and currently pursuing my M.S. in Data Science.<br><br>
-          Most recently, I interned at the Port of Portland, where I supported the PDX Survey Program through data collection, sampling program reviews, analysis, and data visualization. Each quarter, I presented key survey insights to diverse stakeholders during our survey webinars.<br><br>
-          I am now seeking a full-time opportunity in data science, analytics, or business intelligence. My experience has given me a strong foundation in business intelligence workflows, but I'm also eager to grow and apply my skills in other data-focused roles.<br><br>
-          Below, you can see a copy of my most current resume.
+          For my ENGL 341 Shakespeare class at Willamette University, our final projects were very open ended, and approved by our instructor. I decided that since I was majoring in Data Science, that I would try to combine my interest in data with the texts that we read in class. Noticing that Shakespeare's plays are made up of lots and lots of text data, I landed on performing a sentiment analysis project with the texts.<br><br>
+          Here is the gist: Take any two of Shakespeare's plays, say <em>Measure for Measure</em> and <em>The Taming of the Shrew</em>, and match each of the major characters in the play based on their sentiment throughout the play. How to quantify something as squishy as sentiment? There exist dictionaries of words with emotions attached to each word. In the NRC Lexicon, each word has one or more of eight emotions attached to it:  “Trust,” “Fear,” “Sadness,” “Anger,” “Surprise,” “Disgust,” “Joy,” or “Anticipation.”<br></br>
+          Using this lexicon, the distribution of sentiments for each character in the play are calculated. The most similar distributions will match the first pair of characters, then after that the second most similar matches the second pair, and so on.<br></br>
+          The literary analysis of these character matches then proceeds: Why would these certain characters match with each other? Are there any parallels in the plays that make sense with regards to the matches? The PDF of the final project write-up can be viewed to the right and the Github repository can be found <a href="https://github.com/thomascsato/Shakespeare-Sentiment-Analysis" target="_blank">here</a>.
         </p>
       </div>
     </div>
 
     <div class="rightbar">
-      <div class="bodytext">
-        <p>
-          Contact me!<br><br>
-          Email:<br>
-          thomascsato3@gmail.com<br><br>
-          Phone:<br>
-          (503)-209-2783<br><br>
-          LinkedIn:<br>
-          <a href="https://www.linkedin.com/in/thomas-sato/" target="_blank">linkedin.com/in/thomas-sato/</a>
-        </p>
-      </div>
+      <iframe src="Shakespeare_Sentiment_Analysis.pdf" width="500" height="650"></iframe>
     </div>
   </section>
 
-  <iframe src="SatoThomasResume.pdf#view=100&navpanes=0" width="1100" height="900"></iframe>
+  <section class="twocolumn">
+    <div class="leftbar">
+      <div class="bodytext">
+        <h2 class="section-header">
+          <a href="https://github.com/thomascsato/DATA-502-Willamette-Cove-Analysis" target="_blank" style="text-decoration: none;">Willamette Cove Data Visualization</a>
+        </h2>
+        <p>
+          For my DATA 502 Data Visualization class, my final project was conducted in collaboration with the Port of Portland's environmental remediation/management team. The Port of Portland is in part responsible for various environmental remediation initiatives on land that they used to own, one of which is the Portland Harbor Superfund site. The goal of this project was to visualize environmental soil sample data from a public study of the area.<br></br>
+          The final culmination of data was in the form of an <a href="https://akewpm-kevin-kiser.shinyapps.io/WillametteCoveRemediationApp/" target="_blank">RShiny app</a>, where a user can view the spatial distribution of contaminants of concern in the soil over the area of the Portland Harbor. The user can click on one of the areas to view the danger levels in that parcel for all contaminants of concern. This makes it easy to view both on the spatial level and on the individual land unit level.<br></br>
+          The window on the right displays the application, but is recommended to view in a <a href="https://akewpm-kevin-kiser.shinyapps.io/WillametteCoveRemediationApp/" target="_blank">separate browser</a>. The Github page can be found <a href="https://github.com/thomascsato/DATA-502-Willamette-Cove-Analysis" target="_blank">here</a>.
+        </p>
+      </div>
+    </div>
+
+    <div class="rightbar">
+      <iframe src="https://akewpm-kevin-kiser.shinyapps.io/WillametteCoveRemediationApp/" width="650" height="600"></iframe>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer>
